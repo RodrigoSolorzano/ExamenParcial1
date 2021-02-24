@@ -17,7 +17,5 @@ function sumarNumeros() {
         var status = "10+"
     }
 
-    return document.getElementById("tabla").insertRow(-1) = "<tr><td>" + numero1 + "</td><td>" + numero2 + "</td><td>" + suma + "</td></tr>" + "</td><td>" + status + "</td></tr>";;
-
-
+    document.getElementById("tabla").insertRow(-1).innerHTML = '<tr><td>' + Numero1 + '<tr><td>' + Numero2 + '<tr><td>' + suma + '<tr><td>' + status + '<tr><td>'
 }
