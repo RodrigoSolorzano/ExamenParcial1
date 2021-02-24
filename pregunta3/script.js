@@ -11,11 +11,16 @@ function sumarNumeros() {
 
     if (suma < 10) {
         var status = "10-"
-    } else if (suma = 10) {
+    } else if (suma === 10) {
         var status = "10="
     } else if (suma > 10) {
         var status = "10+"
     }
 
     document.getElementById("tabla").insertRow(-1).innerHTML = '<tr><td>' + Numero1 + '<tr><td>' + Numero2 + '<tr><td>' + suma + '<tr><td>' + status + '<tr><td>'
+}
+
+function Total() {
+
+
 }
