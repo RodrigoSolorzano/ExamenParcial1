@@ -20,7 +20,7 @@ function sumarNumeros() {
     document.getElementById("tabla").insertRow(-1).innerHTML = '<tr><td>' + Numero1 + '<tr><td>' + Numero2 + '<tr><td>' + suma + '<tr><td>' + status + '<tr><td>'
 }
 
-function Total() {
+function total() {
 
 
 }
